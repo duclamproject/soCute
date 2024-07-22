@@ -1,0 +1,12 @@
+@media (max-width: 540px) {
+  #container {
+    width: calc(100% - 10px);
+  }
+  #container__child--1 img {
+    width: 450px;
+    height: 450px;
+  }
+  #container__child--2 label {
+    font-size: 1.6rem;
+  }
+}
