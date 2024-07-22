@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body id="body">
+    <div id="container">
+      <div id="container__child--1">
+        <h1 id="you">
+          <p>
+            <span>YOU</span>
+            <i class="fa-solid fa-heart"></i>
+          </p>
+        </h1>
+        <img src="./img/144p.png" alt="img choosed" id="img" />
+      </div>
+      <div id="container__child--2">
+        <label for="container__choose"
+          >Which resolution do you want to choose?
+        </label>
+        <select name="container__select" id="container__select">
+          <option value="144p" selected>144p</option>
+          <option value="240p">240p</option>
+          <option value="480p">480p</option>
+          <option value="720p60">720p60</option>
+          <option value="1080p60">1080p60</option>
+        </select>
+      </div>
+    </div>
+    <!-- File JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
