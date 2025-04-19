@@ -42,7 +42,8 @@ yourChoose.addEventListener("change", () => {
       let left = Math.floor(Math.random() * 80);
       let element = document.createElement("img");
       element.setAttribute("class", "show1080");
-      element.src = "./img/you.jpg";
+      element.src =
+        "https://res.cloudinary.com/dr1zfkddb/image/upload/v1742982855/t9wz1lvfcd9grk4alp7m.jpg";
       element.style.position = "absolute";
       element.style.width = "10vw";
       element.style.height = "10vw";
